@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto');
+
+*,
+*::after,
+*::before{
+    font-family: Lato, Roboto, sans-serif;
+    padding: 0;
+    margin: 0;
+   box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: Lato, Roboto, sans-serif;
+    background-color: hsl(2,20%,50%);
+    max-width: 1500px;
+    width:100%;
+}
+
+h1, h2, h3, h4{
+    /*font-family: font stack required for headings */
+    font-family: Lato, Roboto, serif;
+    margin: 1.414em 0 0.5em;
+    font-weight: inherit;
+    line-height: 1.2;
+
+    
+}
+p{
+    
+}
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(2,20%,50%);
+    padding: 0.2rem;
+}
+
+.subnav{
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: space-between;
+    background-color: hsl(2,90%,60%);
+
+    }
+
+.subnav a{
+    padding-left: 2.5rem;
+    padding-right: 0.5rem;
+    
+}
+
+.mainnav{
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: hsl(2,90%,80%);
+    
+}
+
+.mainnav a{
+    
+}
+.masthead{
+    
+}
+.times-logo{
+    
+    width: 1250px;
+}
+.masthead h1{
+    
+   
+    text-align: center;
+    margin-top: 0;
+    font-size: 3.998em;
+    
+}
+.content{
+    
+  padding: 1rem;
+  border-style: double;
+    
+}
+.content .story{
+    
+    
+      
+}
+.story.lead-story{
+    font-style: oblique;
+    font-weight: bolder;
+
+}
+h1.story-title{
+    
+    box-sizing: border-box;
+    text-align: left;
+    hsl(2,100%,80%);
+    margin-top: 1rem;
+    font-size: 2.998em;
+    
+
+    
+}
+.story img{
+
+float: right;  
+padding: 0.5rem;
+       
+}
+
+.story p{
+    
+justify-content: space-between;
+        
+        
+}
+.story blockquote{
+    quotes: "\201E" "\201D";
+    padding: 1rem;
+    font-style:italic;
+}
+.story blockquote::before{
+    
+
+    content: open-quote;
+}
+.story blockquote::after{
+    content: close-quote;
+    
+
+}
+.story p.byline{
+    
+    font-size: 1.414em;
+    
+    
+}
+p.byline span.author{
+    display: flex;
+    font-size: 1.999em;
+}
+p.byline span.pub{
+    
+    display: flex;
+    
+
+    
+}
+.foot{
+
+    text-align: center;
+   font-size: 0.707em;
+   
+.foot p{
+    
+    
+    
+}
